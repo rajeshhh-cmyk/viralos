@@ -37,7 +37,7 @@ export function AppSidebar() {
             <TrendingUp className="h-4 w-4 text-white" />
           </div>
           <div>
-            <h1 className="text-sm font-bold tracking-tight">Virality OS</h1>
+            <h1 className="text-sm font-bold tracking-tight">ViralityX</h1>
             <p className="text-[11px] text-muted-foreground">Content Intelligence</p>
           </div>
         </div>
