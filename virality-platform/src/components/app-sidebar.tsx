@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Film, Play, Users, Settings2, Search, Eye, Zap, FileText, TrendingUp, LayoutDashboard } from "lucide-react";
+import { Film, Play, Users, Settings2, Search, Eye, Zap, ScanText, FileText, TrendingUp, LayoutDashboard } from "lucide-react";
 import {
   Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel,
   SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarFooter,
@@ -12,6 +12,7 @@ import {
 const researchNav = [
   { title: "Keyword Research", href: "/keyword-research", icon: Search, color: "text-red-400" },
   { title: "Watchlist", href: "/watchlist", icon: Eye, color: "text-blue-400" },
+  { title: "Video Insights", href: "/video-insights", icon: ScanText, color: "text-sky-400" },
 ];
 
 const contentNav = [
